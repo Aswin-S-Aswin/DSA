@@ -1,0 +1,102 @@
+.header_row{
+    background-image: linear-gradient(rgba(99, 60, 60, 0.223));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -5px;
+    height:50px;
+}
+
+/* header div div h2:hover{
+    color:black;
+    
+} */
+header{
+    margin-top:-20px;
+    margin-left:-10px;
+    margin-right:-10px;
+    padding-top: 10px;
+}
+
+.pay{
+    border:2px solid black;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    margin-right:10px;
+    background-color: black;
+ 
+}
+.login{
+    border:2px solid black;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    margin-right:10px;
+
+}
+.header_text{
+    display: flex;
+     margin-left: 20px;
+}
+
+.pay_a{
+    text-decoration: none;
+    color:white;
+}
+
+.login_a{
+    text-decoration: none;
+    color:black;
+}
+
+.nav_row{
+    display:flex;
+    align-items: center;
+    justify-content: center;  
+    margin-top:2%
+ 
+}
+
+.nav_p,.nav_b{
+    padding: 10px;
+    margin: 2px;
+    border-radius: 50px;
+    border: 2px solid black;
+    font-size: 15px;
+    font-family:'Ancizar', sans-serif;  
+}
+
+nav div h1 a{
+    text-decoration:none;
+    color:black;
+}
+
+nav
+.learn_more{
+    display:inline-flex;
+}
+
+.learn{
+    border: 2px black solid;
+    border-radius: 50px;
+    padding:20px 20px;
+    background-color:black;
+    color:white;
+    font-family:'Ancizar', sans-serif;
+    font-size: 17px;
+}
+
+.image{
+    width:45%;
+    height:47%;
+    margin:10px;
+}
+
+.image_container{
+    display:inline-flex;
+    justify-content: center;
+
+}
+
+footer{
+    background-color: blueviolet;
+}
