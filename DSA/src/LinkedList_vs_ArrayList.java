@@ -11,6 +11,11 @@ public class LinkedList_vs_ArrayList {
         long endTime;
         long elapsedTime;
 
+        for(int i = 0;i< 100000;i++){
+            link.add(i);
+            arr.add(i);
+        }
+
 
     }
 }
