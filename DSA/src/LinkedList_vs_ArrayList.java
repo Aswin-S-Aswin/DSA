@@ -15,6 +15,14 @@ public class LinkedList_vs_ArrayList {
             link.add(i);
             arr.add(i);
         }
+        startTime = System.nanoTime();
+
+        endTime = System.nanoTime();
+
+        elapsedTime = endTime - startTime;
+
+        System.out.println("Linked List : \t"+ elapsedTime + "ns");
+
 
 
     }
